@@ -50,8 +50,21 @@ h3{font-size:1.67em;}
 h4{font-size:1.33em;}
 p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
 li a, p a {text-decoration:underline; text-decoration-color:#7c5b0a;}
-ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
-ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
+ul {
+    list-style: none; /* This will add bullet points */
+    margin: 24px auto; /* Adjusted for clarity */
+    margin-left: 64px;
+    padding: 0px;
+    width: 800px;
+    text-align: left;
+}
+
+ul li {
+    list-style: none; /* This will also add bullet points to each list item if needed */
+    margin: 0px auto;
+    padding: 0px;
+    text-align: left;
+}
 i,em{font-style:italic;}
 b,strong{color: #7c5b0a}
 sup{
